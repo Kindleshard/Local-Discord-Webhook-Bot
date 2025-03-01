@@ -4,13 +4,13 @@ A locally hosted Discord webhook bot that aggregates content from various social
 
 ## Features
 
-- Multi-platform integration (YouTube, Reddit, Twitter, Instagram/Facebook)
+- Multi-platform integration (YouTube, WIP: Reddit, Twitter, Instagram/Facebook)
 - Content filtering based on keywords, sources, and engagement metrics
 - Manual content fetching with a button click
 - Scheduled task automation for periodic content posting
 - Local database for content storage and management
 - Custom formatting for Discord messages
-- Modern, tab-based user interface
+- Simple, tab-based user interface
 
 ## Setup
 
@@ -63,7 +63,7 @@ A locally hosted Discord webhook bot that aggregates content from various social
 
 - YouTube
 - Discord Webhooks
-- Reddit
+- Reddit (planned)
 - Twitter (planned)
 - Instagram/Facebook (planned)
 - More to come...
