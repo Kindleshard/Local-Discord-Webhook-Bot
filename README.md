@@ -1,6 +1,6 @@
 # Discord Content Curator
 
-A locally hosted Discord webhook bot that aggregates content from various social media platforms and posts it to Discord channels based on custom filters and preferences.
+A locally hosted Discord webhook app that aggregates content from various social media platforms and posts it to Discord channels based on custom filters and preferences.
 
 ## Features
 
