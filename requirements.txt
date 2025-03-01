@@ -1,0 +1,15 @@
+discord.py>=2.0.0
+python-dotenv>=0.19.0
+aiohttp>=3.8.0
+pyyaml>=6.0
+sqlalchemy>=1.4.0
+requests>=2.26.0
+python-dateutil>=2.8.2
+coloredlogs>=15.0.0
+schedule>=1.1.0
+# API-specific packages
+praw>=7.5.0  # Reddit API
+google-api-python-client>=2.0.0  # YouTube API
+tweepy>=4.0.0  # Twitter API
+# UI-related packages
+ttkthemes>=3.2.0  # Themed widgets for tkinter

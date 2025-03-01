@@ -1,0 +1,97 @@
+{
+    "discord": {
+        "webhook_urls": [
+            {
+                "name": "general",
+                "url": ""
+            }
+        ],
+        "username": "Content Curator",
+        "avatar_url": ""
+    },
+    "filters": {
+        "global": {
+            "min_engagement": 100,
+            "keywords_include": [],
+            "keywords_exclude": []
+        },
+        "youtube": {
+            "min_views": 10000,
+            "min_likes": 1000,
+            "channels": []
+        },
+        "reddit": {
+            "min_upvotes": 500,
+            "subreddits": [],
+            "post_types": [
+                "image",
+                "link",
+                "text"
+            ]
+        },
+        "twitter": {
+            "min_likes": 100,
+            "min_retweets": 50,
+            "accounts": []
+        }
+    },
+    "formatting": {
+        "youtube": {
+            "template": "\ud83d\udcfa **New Video from {channel}**\n\n{title}\n\n\ud83d\udc41\ufe0f {views} views | \ud83d\udc4d {likes} likes\n\n{url}"
+        },
+        "reddit": {
+            "template": "\ud83d\udcf1 **From r/{subreddit}**\n\n**{title}**\n\n\u2b06\ufe0f {upvotes} upvotes | \ud83d\udcac {comments} comments\n\n{url}"
+        },
+        "twitter": {
+            "template": "\ud83d\udc26 **Tweet from @{username}**\n\n{content}\n\n\u2764\ufe0f {likes} | \ud83d\udd04 {retweets}\n\n{url}"
+        }
+    },
+    "database": {
+        "path": "content_curator.db"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "content_curator.log"
+    },
+    "webhooks": [
+        {
+            "name": "New Testing",
+            "url": "https://discord.com/api/webhooks/1345086586206949488/tbe7aOQ3zqZ93eKApq0KWNwy-UG83-oBGgaEeh-1Gvw3FrNuv7Yo-P4EgbJW-pnADe4Z"
+        }
+    ],
+    "test_key": "test_value",
+    "scheduled_tasks": [
+        {
+            "id": "task_1740799056",
+            "platform": "YouTube",
+            "webhook": "New Testing",
+            "updated": "2025-03-01T04:17:36.047666",
+            "created": "2025-03-01T04:17:36.047677",
+            "selected_videos": [
+                {
+                    "id": "tBG2ZfKYwao",
+                    "title": "DeepSeek Is About to SHOCK THE WORLD With R2 That\u2019s 40X More Efficient Than OpenAI's AI",
+                    "url": "https://www.youtube.com/watch?v=tBG2ZfKYwao",
+                    "thumbnail": "https://i.ytimg.com/vi/tBG2ZfKYwao/hqdefault.jpg",
+                    "published": "2025-02-26T23:13:28Z"
+                },
+                {
+                    "id": "A6-6sD7iOnc",
+                    "title": "Elon Musk on A.i | Sophia the humanoid Robot \ud83e\udd16",
+                    "url": "https://www.youtube.com/watch?v=A6-6sD7iOnc",
+                    "thumbnail": "https://i.ytimg.com/vi/A6-6sD7iOnc/hqdefault.jpg",
+                    "published": "2023-04-30T20:07:12Z"
+                }
+            ],
+            "enabled": false,
+            "schedule": "Manual",
+            "max_items": 1,
+            "next_run": "2025-03-01T05:17:40.028220"
+        }
+    ],
+    "api_keys": {
+        "youtube": {
+            "api_key": "AIzaSyBnqnn0zvMXhb6j7InWGig8WvRZuGfUbq8"
+        }
+    }
+}
