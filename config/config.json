@@ -53,20 +53,15 @@
         "level": "INFO",
         "file": "content_curator.log"
     },
-    "webhooks": [
-        {
-            "name": "New Testing",
-            "url": "https://discord.com/api/webhooks/1345086586206949488/tbe7aOQ3zqZ93eKApq0KWNwy-UG83-oBGgaEeh-1Gvw3FrNuv7Yo-P4EgbJW-pnADe4Z"
-        }
-    ],
+    "webhooks": [],
     "test_key": "test_value",
     "scheduled_tasks": [
         {
-            "id": "task_1740799056",
+            "id": "task_1740798738",
             "platform": "YouTube",
             "webhook": "New Testing",
-            "updated": "2025-03-01T04:17:36.047666",
-            "created": "2025-03-01T04:17:36.047677",
+            "updated": "2025-03-01T04:12:18.083891",
+            "created": "2025-03-01T04:12:18.083902",
             "selected_videos": [
                 {
                     "id": "tBG2ZfKYwao",
@@ -76,17 +71,42 @@
                     "published": "2025-02-26T23:13:28Z"
                 },
                 {
-                    "id": "A6-6sD7iOnc",
-                    "title": "Elon Musk on A.i | Sophia the humanoid Robot \ud83e\udd16",
-                    "url": "https://www.youtube.com/watch?v=A6-6sD7iOnc",
-                    "thumbnail": "https://i.ytimg.com/vi/A6-6sD7iOnc/hqdefault.jpg",
-                    "published": "2023-04-30T20:07:12Z"
+                    "id": "PslOp883rfI",
+                    "title": "Donald Trump shares bizarre AI-generated video of 'Trump Gaza'",
+                    "url": "https://www.youtube.com/watch?v=PslOp883rfI",
+                    "thumbnail": "https://i.ytimg.com/vi/PslOp883rfI/hqdefault.jpg",
+                    "published": "2025-02-26T11:12:34Z"
                 }
             ],
             "enabled": false,
             "schedule": "Manual",
-            "max_items": 1,
-            "next_run": "2025-03-01T05:17:40.028220"
+            "max_items": 1
+        },
+        {
+            "id": "task_1740798747",
+            "platform": "YouTube",
+            "webhook": "New Testing",
+            "updated": "2025-03-01T04:12:27.727075",
+            "created": "2025-03-01T04:12:27.727091",
+            "selected_videos": [
+                {
+                    "id": "tBG2ZfKYwao",
+                    "title": "DeepSeek Is About to SHOCK THE WORLD With R2 That\u2019s 40X More Efficient Than OpenAI's AI",
+                    "url": "https://www.youtube.com/watch?v=tBG2ZfKYwao",
+                    "thumbnail": "https://i.ytimg.com/vi/tBG2ZfKYwao/hqdefault.jpg",
+                    "published": "2025-02-26T23:13:28Z"
+                },
+                {
+                    "id": "PslOp883rfI",
+                    "title": "Donald Trump shares bizarre AI-generated video of 'Trump Gaza'",
+                    "url": "https://www.youtube.com/watch?v=PslOp883rfI",
+                    "thumbnail": "https://i.ytimg.com/vi/PslOp883rfI/hqdefault.jpg",
+                    "published": "2025-02-26T11:12:34Z"
+                }
+            ],
+            "enabled": false,
+            "schedule": "Manual",
+            "max_items": 1
         }
     ],
     "api_keys": {
