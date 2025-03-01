@@ -12,6 +12,10 @@ A locally hosted Discord webhook app that aggregates content from various social
 - Custom formatting for Discord messages
 - Simple, tab-based user interface
 
+<img width="596" alt="Screenshot 2025-03-01 043546" src="https://github.com/user-attachments/assets/1ccda5c2-e787-4b84-9eaa-7ecd5dc5f3a0" />
+<img width="596" alt="Screenshot 2025-03-01 043605" src="https://github.com/user-attachments/assets/68369d6b-09fd-48d7-8f0d-25e0d47b20d1" />
+<img width="600" alt="Screenshot 2025-03-01 043700" src="https://github.com/user-attachments/assets/420f979b-1ed5-442f-a7ff-78badc0eb1e4" />
+
 ## Setup
 
 1. Install Python dependencies:
