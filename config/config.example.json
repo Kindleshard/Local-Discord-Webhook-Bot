@@ -1,0 +1,63 @@
+{
+    "discord": {
+        "webhook_urls": [
+            {
+                "name": "general",
+                "url": "YOUR_DISCORD_WEBHOOK_URL_HERE"
+            }
+        ],
+        "username": "Content Curator",
+        "avatar_url": ""
+    },
+    "filters": {
+        "global": {
+            "min_engagement": 100,
+            "keywords_include": [],
+            "keywords_exclude": []
+        },
+        "youtube": {
+            "min_views": 10000,
+            "min_likes": 1000,
+            "channels": []
+        },
+        "reddit": {
+            "min_upvotes": 500,
+            "subreddits": [],
+            "post_types": [
+                "image",
+                "link",
+                "text"
+            ]
+        },
+        "twitter": {
+            "min_likes": 100,
+            "min_retweets": 50,
+            "accounts": []
+        }
+    },
+    "formatting": {
+        "youtube": {
+            "template": "🎺 **New Video from {channel}**\n\n{title}\n\n👁️ {views} views | 👍 {likes} likes\n\n{url}"
+        },
+        "reddit": {
+            "template": "📱 **From r/{subreddit}**\n\n**{title}**\n\n⬆️ {upvotes} upvotes | 💬 {comments} comments\n\n{url}"
+        },
+        "twitter": {
+            "template": "🐦 **Tweet from @{username}**\n\n{content}\n\n❤️ {likes} | 🔄 {retweets}\n\n{url}"
+        }
+    },
+    "database": {
+        "path": "content_curator.db"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "content_curator.log"
+    },
+    "webhooks": [],
+    "scheduled_tasks": [],
+    "api_keys": {
+        "youtube": {
+            "api_key": "YOUR_YOUTUBE_API_KEY_HERE"
+        }
+    }
+}

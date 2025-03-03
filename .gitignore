@@ -1,5 +1,13 @@
 # Credentials and config
 /config/credentials.json
+# Optionally consider ignoring the entire config directory
+# /config/
+
+# Logs and local files
+*.log
+*.db
+*.sqlite
+*.sqlite3
 
 # Python
 __pycache__/
@@ -31,14 +39,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# Database
-*.db
-*.sqlite3
-*.sqlite
-
-# Logs
-*.log
 
 # IDE files
 .idea/
