@@ -1,16 +1,20 @@
 # Discord Content Curator
 
-A locally hosted Discord webhook bot that aggregates content from various social media platforms and posts it to Discord channels based on custom filters and preferences.
+A locally hosted Discord webhook app that aggregates content from various social media platforms and posts it to Discord channels based on custom filters and preferences.
 
 ## Features
 
-- Multi-platform integration (YouTube, Reddit, Twitter, Instagram/Facebook)
+- Multi-platform integration (YouTube, WIP: Reddit, Twitter, Instagram/Facebook)
 - Content filtering based on keywords, sources, and engagement metrics
 - Manual content fetching with a button click
 - Scheduled task automation for periodic content posting
 - Local database for content storage and management
 - Custom formatting for Discord messages
-- Modern, tab-based user interface
+- Simple, tab-based user interface
+
+<img width="596" alt="Screenshot 2025-03-01 043546" src="https://github.com/user-attachments/assets/1ccda5c2-e787-4b84-9eaa-7ecd5dc5f3a0" />
+<img width="596" alt="Screenshot 2025-03-01 043605" src="https://github.com/user-attachments/assets/68369d6b-09fd-48d7-8f0d-25e0d47b20d1" />
+<img width="600" alt="Screenshot 2025-03-01 043700" src="https://github.com/user-attachments/assets/420f979b-1ed5-442f-a7ff-78badc0eb1e4" />
 
 ## Setup
 
@@ -63,7 +67,7 @@ A locally hosted Discord webhook bot that aggregates content from various social
 
 - YouTube
 - Discord Webhooks
-- Reddit
+- Reddit (planned)
 - Twitter (planned)
 - Instagram/Facebook (planned)
 - More to come...
